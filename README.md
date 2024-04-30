@@ -3,21 +3,30 @@
 This Maven-based Java project automates specific test scenarios on the WebstaurantStore website. 
 It executes searches for products, validates the search results, adds items to the cart, and then empties the cart.
 
-## Requirements
 
-- **Operating System:** Windows 10
-- **Programming Language:** Java 
-- **Tools:** Selenium
-- **Browser:** Chrome
- 
-## Test Case
+ ## Languages and Frameworks
 
-1. **Go to [https://www.webstaurantstore.com/](https://www.webstaurantstore.com/)**
-2. **Search for 'stainless work table'**
-3. **Check the search result ensuring every product has the word 'Table' in its title**
-4. **Add the last of found items to Cart**
-5. **Empty Cart**
+The project uses the following:
 
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+- WebdriverManager
+- IntelliJ IDEA
+- Extent Reports
+
+## Project Structure
+```bash
+├───src
+│   └───test
+│       └───java
+│           ├───Pages
+│           ├───Runner
+│           ├───Test
+│           └───Utilities
+└───Test Reports
+```
  ## Installation
 
 Clone the project using the following command:
