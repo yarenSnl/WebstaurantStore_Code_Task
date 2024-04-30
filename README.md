@@ -6,7 +6,7 @@ It executes searches for products, validates the search results, adds items to t
 
  ## Languages and Frameworks
 
-The project uses the following:
+Utilized in the project:
 
 - Java
 - Selenium WebDriver
