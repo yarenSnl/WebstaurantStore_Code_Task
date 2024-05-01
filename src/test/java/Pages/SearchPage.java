@@ -53,7 +53,7 @@ public class SearchPage {
     }
 
     /**
-     * Verifies that each item's title on all pages does not contain the specified keyword.
+     * Verifies that each item's title on all pages contain the specified keyword.
      * Logs the result and counts items that do not contain the keyword.
      */
     public void verifyEachItemsTitleContains(String keyword) {
