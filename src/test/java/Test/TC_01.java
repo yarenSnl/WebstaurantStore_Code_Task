@@ -8,7 +8,7 @@ public class TC_01 extends TestSetup {
     @Test(priority = 1)
     public void webstaurantStoreTest() {
 
-        /** Step 1: Search for a query and verify results do not contain the keyword "Table" */
+        /** Step 1: Search for a query and verify results contain the keyword "Table" */
         searchPage.performSearch("stainless work table");
         searchPage.verifyEachItemsTitleContains("Table");
 
